@@ -1846,6 +1846,308 @@ fightext_character.basicSet(img`
         `)
     fightext_skill.defaultSkill(player2)
 })
+fightext_character.basicSet(img`
+    . . . . 2 2 2 2 2 e . . . . . . 
+    . . . 2 2 2 2 d 2 2 e . . . . . 
+    . . e 2 2 2 2 2 2 2 e . . . . . 
+    . . e 2 2 2 2 2 2 2 e . . . . . 
+    . . e 2 2 2 2 2 e f f c c . . . 
+    . . e e 2 2 e f f f f b c . . . 
+    . e e e f e 2 b f f f d c . . . 
+    e e 2 2 d f 2 1 1 1 1 b c . . . 
+    e e 2 2 d f e e c c c . . . . . 
+    b 1 1 d e 2 2 e e c . . . . . . 
+    . f f e 2 2 2 2 e . . . . . . . 
+    . . f f d d 2 2 f f d d . . . . 
+    . . f f d d e e f f d d . . . . 
+    . . . f f f f . . . . . . . . . 
+    . . e e e f f f . . . . . . . . 
+    . . e e e e f f f . . . . . . . 
+    `, "Jacob W.", function (player2) {
+    fightext_character.setWalkImage(player2, fightext_character.aniKind.Hurt, [img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . 2 2 2 2 2 e . . . . 
+        . . . . . 2 2 2 2 d 2 f e . . . 
+        . . . . e f 2 2 2 2 f 2 e . . . 
+        . . . . e 2 f 2 2 2 2 2 e . . . 
+        . . . . e f 2 f 2 2 e f f c c . 
+        . . . . e e 2 2 e f f f f b c . 
+        . . e e e f e 2 2 b f f f d c . 
+        . e e 2 f d f e 2 1 1 1 f b c . 
+        . e e f 2 d f e e e c f c . . . 
+        . b 1 1 d e f 2 e e c . . . . . 
+        . . f f f d d f 2 f d d . . . . 
+        . . . f f d d e e f d d . . . . 
+        . . . . . f f f f f . . . . . . 
+        . . . . e e e f f . . . . . . . 
+        . . . . e e e e f f . . . . . . 
+        `])
+    fightext_character.setAbility(player2, fightext_character.abilityKind.rushspeed, 57)
+    fightext_character.setStImage(player2, fightext_character.stimgKind.Defence, img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . 2 2 2 2 2 e . . . 
+        . . . . . . 2 2 2 2 d 2 2 e . . 
+        . . . . . e 2 2 2 2 2 2 2 e . . 
+        . . . . . e 2 2 2 2 2 2 2 e . . 
+        . . . . . e 2 2 2 2 2 e f f c c 
+        . . . . . e e 2 2 e f f f f b c 
+        . . . e e e f e 2 2 e f f f d c 
+        . . e e 2 2 d f e 2 c b 4 4 c c 
+        . . e e 2 2 d f e c 4 1 1 4 c . 
+        . . b 1 1 d e e e c 4 4 4 4 c . 
+        . . . f f f f f d d 4 4 4 b c . 
+        . . . . f f f f d d c c c c . . 
+        . . . . . f f f f f c c c . . . 
+        . . . . e e e f f . . . . . . . 
+        . . . . e e e e f f . . . . . . 
+        `)
+    fightext_character.setAtkImage(player2, fightext_character.atkimgKind.hand1, img`
+        . . . . 2 2 2 2 2 e . . . . . . 
+        . . . 2 2 2 2 d 2 2 e . . . . . 
+        . . e 2 2 2 2 2 2 2 e . . . . . 
+        . . e 2 2 2 2 2 2 2 e . . . . . 
+        . . e 2 2 2 2 2 e f f c c . . . 
+        . . e e 2 2 e f f f f b c . . . 
+        . e e e f e 2 b f f f d c . . . 
+        e e 2 2 d f 2 1 1 1 1 b c . . . 
+        e e 2 2 d f e e c c c . . . . . 
+        b 1 1 d e 2 2 e d d f d d f . . 
+        . f f e 2 2 2 2 d d f d d f . . 
+        . . f f d d 2 2 . . . . . . . . 
+        . . f f d d e e . . . . . . . . 
+        . . . f f f f . . . . . . . . . 
+        . . e e e f f f . . . . . . . . 
+        . . e e e e f f f . . . . . . . 
+        `, img`
+        . . . . 2 2 2 2 2 e . . . . . . 
+        . . . 2 2 2 2 d 2 2 e . . . . . 
+        . . e 2 2 2 2 2 2 2 e . . . . . 
+        . . e 2 2 2 2 2 2 2 e . . . . . 
+        . . e 2 2 2 2 2 e f f c c . . . 
+        . . e e 2 2 e f f f f b c . . . 
+        . e e e f e 2 b f f f d c . . . 
+        e e 2 2 d f 2 1 1 1 1 b c . . . 
+        e e 2 2 d f e e c c c . . . . . 
+        b 1 1 d e 2 2 e d d f d d f . . 
+        . f f e 2 2 2 2 d d f d d f . . 
+        . . f f d d 2 2 . . . . . . . . 
+        . . f f d d e e . . . . . . . . 
+        . . . f f f f . . . . . . . . . 
+        . . e e e f f f . . . . . . . . 
+        . . e e e e f f f . . . . . . . 
+        `)
+    fightext_character.setAtkImage(player2, fightext_character.atkimgKind.leg1, img`
+        . . . . . . . . . . . . . . . . 
+        . . . . e 2 2 2 2 2 . . . . . . 
+        . . . e 2 2 d 2 2 2 2 . . . . . 
+        . . . e 2 2 2 2 2 2 2 e . . . . 
+        . . . e 2 2 2 2 2 2 2 e . . . . 
+        . c c f f e 2 2 2 2 2 e . . . . 
+        . c b f f f f e 2 2 e e . . . . 
+        . c d f f f b 2 e f e e e . . . 
+        . c b 1 1 1 1 2 f d 2 2 e e . . 
+        . . . c c c e e f d 2 2 e e . . 
+        . . . . . c e e 2 e d 1 1 b . . 
+        . . . . . . . f d d f f f f . . 
+        . . . . . . . . d d f f f f f f 
+        . . . . . . . . e f f f . f f f 
+        . . . . . . . e e e . . . . f f 
+        . . . . . . e e e e . . . . . . 
+        `, img`
+        . . . . . . . . . . . . . . . . 
+        . . . . e 2 2 2 2 2 . . . . . . 
+        . . . e 2 2 d 2 2 2 2 . . . . . 
+        . . . e 2 2 2 2 2 2 2 e . . . . 
+        . . . e 2 2 2 2 2 2 2 e . . . . 
+        . c c f f e 2 2 2 2 2 e . . . . 
+        . c b f f f f e 2 2 e e . . . . 
+        . c d f f f b 2 e f e e e . . . 
+        . c b 1 1 1 1 2 f d 2 2 e e . . 
+        . . . c c c e e f d 2 2 e e . . 
+        . . . . . c e e 2 e d 1 1 b . . 
+        . . . . . . . f d d f f f f . . 
+        . . . . . . . . d d f f f f f f 
+        . . . . . . . . e f f f . f f f 
+        . . . . . . . e e e . . . . f f 
+        . . . . . . e e e e . . . . . . 
+        `)
+    fightext_character.setAtkImage(player2, fightext_character.atkimgKind.hand2, img`
+        . . . . . . . . . . . . . . . . . 
+        . . . . . . . . . 2 2 2 2 2 e . . 
+        . . . . . . . . 2 2 2 2 d 2 2 e . 
+        . . . . . . . e 2 2 2 2 2 2 2 e . 
+        . . . . . . . e 2 2 2 2 2 2 2 e . 
+        . . . . . . . e 2 2 2 2 2 e f f c 
+        . . . . . . . e e 2 2 e f f f f b 
+        . . . . . e e e f e 2 2 b f f f d 
+        . . . . e e 2 2 d f e 2 1 1 1 1 b 
+        . . . . e e 2 2 d f e e e c c c . 
+        . . . . b 1 1 d e 2 2 e e c . . . 
+        . . . . . f f f d d 2 2 f d d . . 
+        . . . . . . f f d d e e f d d . . 
+        . . . . . . f f f f f . . . . . . 
+        . . . . . . e e e f f . . . . . . 
+        . . . . . . e e e e f f . . . . . 
+        `, img`
+        . . . . . . . . . . . . . . . . . 
+        . . . . . . . . . 2 2 2 2 2 e . . 
+        . . . . . . . . 2 2 2 2 d 2 2 e . 
+        . . . . . . . e 2 2 2 2 2 2 2 e . 
+        . . . . . . . e 2 2 2 2 2 2 2 e . 
+        . . . . . . . e 2 2 2 2 2 e f f c 
+        . . . . . . . e e 2 2 e f f f f b 
+        . . . . . e e e f e 2 2 b f f f d 
+        . . . . e e 2 2 d f e 2 1 1 1 1 b 
+        . . . . e e 2 2 d f e e e c c c . 
+        . . . . b 1 1 d e 2 2 e e c . . . 
+        . . . . . f f f d d 2 2 f d d . . 
+        . . . . . . f f d d e e f d d . . 
+        . . . . . . f f f f f . . . . . . 
+        . . . . . . e e e f f . . . . . . 
+        . . . . . . e e e e f f . . . . . 
+        `)
+    fightext_character.setAtkImage(player2, fightext_character.atkimgKind.leg2, img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . b e e . . . . . . . 
+        . . . . . f 1 e e e . . . . . . 
+        . e e . f f 1 2 2 e . . . . . . 
+        . e e f f f d 2 2 e e e e e . . 
+        . e e f d d e d d f e 2 2 2 2 . 
+        . e f f d d 2 f f e 2 2 2 2 2 2 
+        . f f f e 2 2 e e 2 2 2 2 2 2 2 
+        . f . f e 2 e e 2 2 e 2 2 2 2 2 
+        . . . . f f e e 1 b f 2 2 2 d 2 
+        . . . . d d c c 1 f f e 2 2 2 2 
+        . . . . d d . c 1 f f f 2 2 2 e 
+        . . . . . . . c 1 f f f e e e . 
+        . . . . . . . . b d b c . . . . 
+        . . . . . . . . c c c c . . . . 
+        . . . . . . . . . . . . . . . . 
+        `, img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . b e e . . . . . . . 
+        . . . . . f 1 e e e . . . . . . 
+        . e e . f f 1 2 2 e . . . . . . 
+        . e e f f f d 2 2 e e e e e . . 
+        . e e f d d e d d f e 2 2 2 2 . 
+        . e f f d d 2 f f e 2 2 2 2 2 2 
+        . f f f e 2 2 e e 2 2 2 2 2 2 2 
+        . f . f e 2 e e 2 2 e 2 2 2 2 2 
+        . . . . f f e e 1 b f 2 2 2 d 2 
+        . . . . d d c c 1 f f e 2 2 2 2 
+        . . . . d d . c 1 f f f 2 2 2 e 
+        . . . . . . . c 1 f f f e e e . 
+        . . . . . . . . b d b c . . . . 
+        . . . . . . . . c c c c . . . . 
+        . . . . . . . . . . . . . . . . 
+        `)
+    fightext_character.setStImage(player2, fightext_character.stimgKind.Hitover, img`
+        . . . . . e e e e f f f . . . . 
+        . . . . . e e e f f f . . . . . 
+        . . . . . . f f f f . . . . . . 
+        . . . . . f f d d e e f f d d . 
+        . . . . . f f d d 2 2 f f d d . 
+        . . . . f f e 2 2 2 2 e . . . . 
+        . . . b 1 1 d e 2 2 e e c . . . 
+        . . . e e 2 2 d f e e c c c . . 
+        . . . e e 2 2 d f 2 1 1 1 1 b c 
+        . . . . e e e f e 2 b f f f d c 
+        . . . . . e e 2 2 e f f f f b c 
+        . . . . . e 2 2 2 2 2 e f f c c 
+        . . . . . e 2 2 2 2 2 2 2 e . . 
+        . . . . . e 2 2 2 2 2 2 2 e . . 
+        . . . . . . 2 2 2 2 d 2 2 e . . 
+        . . . . . . . 2 2 2 2 2 e . . . 
+        `)
+    fightext_character.setStImage(player2, fightext_character.stimgKind.Lie, img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . c f c c . . . . . . . . 
+        . . . . c b f b . . . . . . . . 
+        . e e e f f f f c . . . . . . . 
+        e f f 2 f f f 1 f c . . . . . . 
+        2 2 f 2 e f f f f e e . . . . f 
+        f f f 2 2 f b 1 f e 2 2 e . f f 
+        f f f f 2 e 2 2 e f f 2 e f f f 
+        2 2 f 2 f 2 e f f f 2 d d f f e 
+        2 2 f 2 2 2 f d d f f d d f e e 
+        . 2 2 f 2 e e 2 f d e f f f e e 
+        . . e e e e e f 2 1 f f f . e e 
+        `)
+    fightext_character.setWalkImage(player2, fightext_character.aniKind.Walk, [img`
+        . . . . 2 2 2 2 2 e . . . . . . 
+        . . . 2 2 2 2 d 2 2 e . . . . . 
+        . . e 2 2 2 2 2 2 2 e . . . . . 
+        . . e 2 2 2 2 2 2 2 e . . . . . 
+        . . e 2 2 2 2 2 e f f c c . . . 
+        . . e e 2 2 e f f f f b c . . . 
+        . e e e f e 2 b f f f d c . . . 
+        e e 2 2 d f 2 1 1 1 1 b c . . . 
+        e e 2 2 d f e e c c c . . . . . 
+        b 1 1 d e 2 2 e e c . . . . . . 
+        . f f e 2 2 2 2 e . . . . . . . 
+        . . f f d d 2 2 f f d d . . . . 
+        . . f f d d e e f f d d . . . . 
+        . . . f f f f . . . . . . . . . 
+        . . e e e f f f . . . . . . . . 
+        . . e e e e f f f . . . . . . . 
+        `,img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . 2 2 2 2 2 e . . . . 
+        . . . . . 2 2 2 2 d 2 2 e . . . 
+        . . . . e 2 2 2 2 2 2 2 e . . . 
+        . . . . e 2 2 2 2 2 2 2 e . . . 
+        . . . . e 2 2 2 2 2 e f f c c . 
+        . . . . e e 2 2 e f f f f b c . 
+        . . . e e e f e 2 b f f f d c . 
+        . . e e 2 2 d f 2 1 1 1 1 b c . 
+        . . e e 2 2 d f e e c c c . . . 
+        . . b 1 1 d e 2 e e c . . . . . 
+        . . f f f f d d f . . . . . . . 
+        f f f f f f d d . . . . . . . . 
+        f f f . f f f e . . . . . . . . 
+        f f . . . . e e e . . . . . . . 
+        . . . . . . e e e e . . . . . . 
+        `,img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . 2 2 2 2 2 e . . . . 
+        . . . . . 2 2 2 2 d 2 2 e . . . 
+        . . . . e 2 2 2 2 2 2 2 e . . . 
+        . . . . e 2 2 2 2 2 2 2 e . . . 
+        . . . . e 2 2 2 2 2 e f f c c . 
+        . . . . e e 2 2 e f f f f b c . 
+        . . e e e f e 2 2 b f f f d c . 
+        . e e 2 2 d f e 2 1 1 1 1 b c . 
+        . e e 2 2 d f e e e c c c . . . 
+        . b 1 1 e e 2 2 e e c . . . . . 
+        . . f d d 2 2 2 f f f d d . . . 
+        e e f d d e e e . f f d d . . . 
+        e e e f f f f f . . . . . . . . 
+        e e . . . . f f f . . . . . . . 
+        . . . . . . f f f f . . . . . . 
+        `,img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . 2 2 2 2 2 e . . . 
+        . . . . . . 2 2 2 2 d 2 2 e . . 
+        . . . . . e 2 2 2 2 2 2 2 e . . 
+        . . . . . e 2 2 2 2 2 2 2 e . . 
+        . . . . . e 2 2 2 2 2 e f f c c 
+        . . . . . e e 2 2 e f f f f b c 
+        . . . e e e f e 2 2 b f f f d c 
+        . . e e 2 2 d f e 2 1 1 1 1 b c 
+        . . e e 2 2 d f e e e c c c . . 
+        . . b 1 1 d e 2 2 e e c . . . . 
+        . . . f f f d d 2 2 f d d . . . 
+        . . . . f f d d e e f d d . . . 
+        . . . . . f f f f f . . . . . . 
+        . . . . e e e f f . . . . . . . 
+        . . . . e e e e f f . . . . . . 
+        `], 200)
+    fightext_skill.defaultSkill(player2)
+})
 playGame.characterMenus()
 fightext_skill.skillSet("Cave Bat", function (player2) {
     fightext_skill.setSkill(player2, fightext_skill.SkillKind.A3, 19, function (tempVar, undefined) {
