@@ -1,5 +1,5 @@
 {
-    "name": "COMBAT: Depredation",
+    "name": "COMBAT: Depredation (BLOB UPDATE)",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -17,7 +17,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.5.46",
+        "target": "1.5.56",
         "targetId": "arcade"
     },
     "supportedTargets": [
